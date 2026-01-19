@@ -1,35 +1,63 @@
 # Retail Sales Analytics Dashboard
 
-Interactive BI dashboard to analyze **retail sales performance**, **profitability trends**, and **product-level insights**.  
-Built to help answer: *Which products drive revenue but hurt profit? Where are the category gaps? What changes by region and time?*
+Interactive BI dashboard built with **Tableau** to analyze retail sales performance, profitability trends, and product-level insights.
 
-## What This Project Does
-- KPI analysis for revenue, profit, margin, and trends over time
-- Identified **high-revenue but low-profit** products
-- Region-wise and date-based exploration via interactive filters
-- Category performance comparison to spot gaps and opportunities
+The goal of this project is to answer practical business questions such as:
+- Which products generate high revenue but low profit?
+- Where are the category-level performance gaps?
+- How do sales and profitability change across regions and time?
 
-## Tools & Skills
-- **Tableau** (interactive dashboards, filters, time-series visuals)
-- **SQL / Excel / Python** (depending on your final dataset workflow)
-- KPI design and business insight framing
+---
+
+## Project Overview
+
+- Performed KPI analysis for revenue, profit, margin, and sales trends
+- Identified **high-revenue, low-profit** products impacting overall margins
+- Enabled region-wise and time-based exploration using interactive filters
+- Compared category performance to highlight growth and optimization opportunities
+
+---
+
+## Tools & Skills Used
+
+- **Tableau** – interactive dashboards, filters, time-series analysis
+- **Excel / SQL / Python** – data cleaning, transformation, and validation
+- KPI design and business-oriented data storytelling
+
+---
 
 ## Dashboard Preview
-> Add screenshots here:
-- `/assets/overview.png`
-- `/assets/profitability.png`
-- `/assets/top_products.png`
+
+### Sales Overview
+![Sales Overview](assets/overview.png)
+
+### Profitability Analysis
+![Profitability](assets/profitability.png)
+
+### Top Products & Categories
+![Top Products](assets/top_products.png)
+
+> Screenshots are taken from the interactive Tableau dashboard.
+
+---
 
 ## Data
-If you used a public dataset (like Superstore), mention it here.  
-If your dataset is private, add a small sample or document the schema.
 
-## Repo Structure (Suggested)
-- `data/` (public dataset or sample)
-- `tableau/` (Tableau workbook)
-- `assets/` (screenshots)
-- `docs/` (notes, insights, KPI definitions)
+- Dataset: Public retail dataset (e.g. Superstore-style data)
+- Data includes sales, profit, product categories, regions, and order dates
+- Minor cleaning and transformation were performed before dashboard creation
 
-## About Me
-Kenil Sohaliya  
-LinkedIn: https://linkedin.com/in/kenilsohaliya
+If the full dataset cannot be shared, this repository focuses on the dashboard logic and insights.
+
+---
+
+## Repository Structure
+
+```text
+retail-sales-analytics-dashboard/
+│
+├── tableau/        # Tableau workbook (.twb / .twbx)
+├── data/           # Dataset or sample data
+├── assets/         # Dashboard screenshots
+├── docs/           # Notes and insights
+└── README.md
