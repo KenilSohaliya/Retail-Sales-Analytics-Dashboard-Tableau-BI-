@@ -50,14 +50,3 @@ The goal of this project is to answer practical business questions such as:
 If the full dataset cannot be shared, this repository focuses on the dashboard logic and insights.
 
 ---
-
-## Repository Structure
-
-```text
-retail-sales-analytics-dashboard/
-│
-├── tableau/        # Tableau workbook (.twb / .twbx)
-├── data/           # Dataset or sample data
-├── assets/         # Dashboard screenshots
-├── docs/           # Notes and insights
-└── README.md
